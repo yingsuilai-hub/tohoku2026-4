@@ -25,3 +25,28 @@ h2.section{display:flex;align-items:center;gap:10px;margin:34px 0 12px;font-size
 .return-card .place{font-weight:800;font-size:17px;margin-bottom:8px}
 .return-card .bus{display:block;padding:6px 0;border-top:1px dashed #e6ddd1}
 .highlight-row{background:#f2f8f3}
+
+
+/* V4 Timeline UI */
+.v4-layout{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
+@media(max-width:980px){.v4-layout{grid-template-columns:1fr}}
+.route-image-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:16px;margin:16px 0;box-shadow:0 10px 24px rgba(23,32,51,.05)}
+.route-image-card img{width:100%;height:auto;border-radius:12px;display:block;background:#f6f1e9}
+.day-timeline{background:#fff;border:1px solid var(--border);border-radius:18px;padding:18px}
+.tl-row{display:grid;grid-template-columns:74px 26px 1fr;gap:12px;position:relative}
+.tl-row:not(:last-child)::after{content:"";position:absolute;left:86px;top:34px;bottom:-10px;width:3px;background:#2d5a3d33}
+.tl-time{font-size:18px;font-weight:800;color:var(--ink);padding-top:5px}
+.tl-dot{width:15px;height:15px;border-radius:50%;background:var(--pine);margin-top:12px;box-shadow:0 0 0 5px #e8f4f0;z-index:2}
+.tl-card{padding:9px 0 18px;border-bottom:1px solid #eee}
+.tl-card h3{margin:0;font-size:18px}
+.tl-card p{margin:4px 0;color:var(--mist)}
+.tl-tags{margin-top:6px}
+.tl-tags span{display:inline-block;font-size:12px;border:1px solid var(--border);border-radius:999px;padding:3px 8px;margin:2px;background:#fbfaf7}
+.side-panel{position:sticky;top:74px}
+@media(max-width:980px){.side-panel{position:static}}
+.info-box{background:#fff;border:1px solid var(--border);border-radius:18px;padding:16px;margin-bottom:14px}
+.info-box h3{margin:0 0 10px}
+.mini-table{width:100%;border-collapse:collapse;font-size:14px}
+.mini-table th,.mini-table td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.mini-table th{background:#f6f1e9}
+.quick-links a{display:block;text-decoration:none;border:1px solid var(--border);border-radius:12px;padding:10px;margin:8px 0;background:#fbfaf7}
