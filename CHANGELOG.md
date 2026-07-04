@@ -1,9 +1,9 @@
-# V3.1 JR BUS Live Timetable Update
+# V3.2 Oirase Timetable Built-in Update
 
 更新內容：
-- 奧入瀨頁新增 JR BUS 官方時刻表即時查詢按鈕
-- JR 交通頁新增奧入瀨 JR BUS 官方連結
-- 首頁出門前檢查加入官方時刻表確認項目
-
-官方時刻表：
-https://www.jrbustohoku.co.jp/towadako-oirase/ct/
+- 奧入瀨頁改為內建時刻表，參考 V2 Premium PDF 的清楚版面。
+- 新增「今天只需要看這一頁」時間軸。
+- 新增去程卡片：湖2號 / 湖4號 / 湖6號。
+- 新增回程卡片：子之口、銚子大瀑布、雲井之瀑、石戶、奧入瀨溪流館。
+- 每日行程 Day3 補上時刻摘要。
+- 保留 JR BUS 官方即時查詢連結。
